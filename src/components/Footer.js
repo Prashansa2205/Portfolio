@@ -13,8 +13,8 @@ export const Footer = () => {
           <MailchimpForm />
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/prashansa-toppo/"><img src={navIcon1} alt="Icon" /></a>
-              <a href="https://www.instagram.com/prashansa_22/"><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/in/prashansa-toppo/" target="_blank"><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://www.instagram.com/prashansa_22/" target="_blank"><img src={navIcon3} alt="Icon" /></a>
             </div>
           </Col>
         </Row>

@@ -431,6 +431,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx:hover::before {
   height: 100%;
 }
+.navlink{
+  text-decoration: none;
+  text-decoration-color: #fff;
+}
 .proj-txtx {
   position: absolute;
   text-align: center;
@@ -440,22 +444,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
+  color: #fff;
 }
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
+  color: #fff;
 }
 .proj-txtx h4 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
+  color: #fff;
 }
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
+  color: #fff;
 }
 .background-image-right {
   top: 20%;
